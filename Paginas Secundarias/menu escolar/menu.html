@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menú de Almuerzo Escolar</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="container">
+    <h1>Menu de Almuerzo Escolar</h1>
+
+    <label for="opciones">Selecciona una dia:</label>
+    <select id="opciones" name="opciones" onchange="mostrarResultado()">
+        <optgroup label="Semana 1">
+            <option value="Arroz con pollo">lunes</option>
+            <option value="martes-1">martes</option>
+            <option value="miercoles-1">miercoles</option>
+            <option value="jueves-1">jueves</option>
+            <option value="viernes-1">viernes</option>
+        </optgroup>
+        <optgroup label="Semana 2">
+            <option value="lunes-2">lunes</option>
+            <option value="martes-2">martes</option>
+            <option value="miercoles-2">miercoles</option>
+            <option value="jueves-2">jueves</option>
+            <option value="viernes-2">viernes</option>
+        </optgroup>
+        <optgroup label="Semana 3">
+            <option value="lunes-3">lunes</option>
+            <option value="martes-3">martes</option>
+            <option value="miercoles-3">miercoles</option>
+            <option value="jueves-3">jueves</option>
+            <option value="viernes-3">viernes</option>
+        </optgroup>
+    </select>
+
+    <div class="button-container">
+        <button><a href="semana-1/menu comida.html">Semana 1</a></button>
+        <button><a href="semana-2.html">Semana 2</a></button>
+        <button><a href="semana-3.html">Semana 3</a></button>
+    </div>
+
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
